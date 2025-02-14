@@ -43,10 +43,10 @@ do {
         // Catches the invalid input
         throw InputError.invalidInput
     }
-} catch InputError.invalidInput { 
+} catch InputError.invalidInput {
     // If user does not enter a number
     print("Please enter a number.")
-} catch InputError.negativeOrZeroRadius { 
+} catch InputError.negativeOrZeroRadius {
     // If user does not enter a valid number
     print("Please enter a radius greater than or equal to zero.")
 }
